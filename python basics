@@ -1,0 +1,618 @@
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("santhosh")
+# This is first program
+# python basics
+# Multiple lines
+a = 1; b = 2; c = a + b; d = b - a; e = a / b; f = a * b; g = a % b; h = a//b
+print('the value of a is ', a)
+print(a+b)
+# writing variable values
+print("sum is", a, "and", b, "is", c)
+# type of data
+i = int(1)
+j = str("hi")
+k = float(9)
+print(i, j, k)
+# data types
+y = 8.0
+print(type(y))
+l = 7
+L = 8
+# python is not case sensitive
+print(l, L)
+# multiple variables/values
+x, y, z = "iphone", "mac", "ipad"
+print(x, y, z)
+X = Y = Z = "macbook"
+print(X, Y, Z)
+# output
+aa = 5;ab = 6
+print(aa+ab)
+ac = "hi"; ad = "santhosh"
+print(ac+"  "+ad)
+# multi lines
+ml = '''hi, 
+how are you , 
+santhosh '''
+print(ml)
+# strings are arrays
+sa = "hello,santhosh"
+print(sa[2])
+for x in "santhosh":
+    print(x)
+# length of string
+length = "santhosh"
+print('length of length is ', len(length))
+# search in text
+text = "hi santhosh welcome to pycharm"
+print('santhosh' in text)
+if "santhosh" in text:
+    print("given string is present")
+if "mac" not in text:
+    print("not present")
+# strings slicing
+string = "santhosh"
+print(string[0:])
+print(string[0:9])
+print(string[0:5])
+print(string[:1])
+print(string[::-1])
+# string reversal
+pal = "abcba"
+npal = "12321"
+rpal = pal[::-1]
+rnpal = npal[::-1]
+print(rpal)
+print(rnpal)
+# palindrome
+if pal == rpal:
+    print("pal is palindrome \n", pal)
+if npal == rnpal:
+    print("rnpal is palindrome \n ", npal)
+nls = " hi \n santhosh \n welcome \n "
+print(nls)
+# upper case and lower case
+uc = "santhosh"
+print("uc is :- ", uc.upper())
+lc = "SANTHOSH"
+print("lc is :-- ", lc.lower())
+# remove white spaces
+rws = 'sa nt ho sh'
+print(rws.strip())
+# replace words
+rep = "hello , santhosh !"
+print(rep.replace("h","w"))
+# split the words
+split = "hi santhosh welcome to pycharm on macbook "
+print(split.split())
+# string concatenation
+str1 = "hi"
+str2 = 'santhosh'
+print(str1 + " " + str2)
+# string format
+age = 23
+name = "i am santhosh and my age is {} "
+print(name.format(age))
+quantity = 2
+item = 3
+price = 60
+# here {} is used to index i.e quantity is o,  item is 1 price is 2
+# we need to give this index values inside {}
+myorder = 'i want to pay {2} rupee for {0} pieces of item   {1}'
+print(myorder.format(quantity, item, price))
+# escape characters \ used to add strings
+esc = "hi \" santhosh \" welcome"
+print(esc)
+# boolean prints true if there is value
+print(10>8)
+print(10 == 10)
+print(1>6)
+print(bool("santhosh"))
+print(bool(56))
+# print false if there is no value in boolean
+print(bool())
+print(bool(0))
+print(bool(None))
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# print statement
+# print('hi hello santhosh welcome to python //-->')
+# python multiple comments / doc strings
+#  print('''
+# hi,
+# santhosh''')
+# create variable
+# x = 1
+# print('value of x is ', x)
+# y = 2
+# print("sum of ", x, "and", y, "is", x+y)
+# x = 9
+# print(type(x))
+# y = int(9)
+# print(y)
+# f = float(9)
+# j = 8.9
+# print(type(j))
+# s = 12E4
+# print(type(s))
+# c = 9 + 7j
+# print(c)
+# print(type(c))
+# python casting
+# x = 7
+# y = int(x)
+# print(x, y, type(y))
+# f = float(x)
+# print(f)
+# st = '4567'
+# n = int(st)
+# print(n, type(n))
+# s = str(x)
+# print(type(s))
+# strings operations
+# st = 'santhosh'
+# print(st[0])
+# print(st[1:5])
+# st1 = '  santhosh   '
+# print(st1.strip())
+# print(len(st))
+# us = 'SANTHOSH'
+# print(us.lower())
+# ls = 'santhosh'
+# print(ls.upper())
+# print(ls.replace('santhosh', 'macbook'))
+# print(ls.split())
+# sl = 'hi, santhosh, welcome'
+# print(sl.splitlines())
+# python operators
+# fv = int(input("enter the first value:-->"))
+# sv = int(input("enter the second value:-->"))
+# print("the first value is :==", fv)
+# print("the second value is :==", sv)
+# print('operations are :--> +,-,*,/,%')
+# op = input()
+# if op == '+':
+#     print('sum of ', fv, 'and', sv, 'is :--', fv + sv)
+# elif op == '-':
+#     print('subtraction of ', fv, 'and', sv, 'is :--', fv - sv)
+# elif op == '*':
+#     print('product  of ', fv, 'and', sv, 'is :--', fv * sv)
+# elif op == '/':
+#     print('div of ', fv, 'and', sv, 'is :--', fv / sv)
+# elif op == '%':
+#     print('modulus of ', fv, 'and', sv, 'is :--', fv % sv)
+# else:
+#     print('give the correct operation')
+# python lists
+# l = ["hi", 'welcome', 'santhosh']
+# print(l[1])
+# l.append('python')
+# print(l)
+# for x in l:
+#     print(x)
+# if "hi" in l:
+#     print("hi is present in l")
+# print(len(l))
+# l[1] = 'hello'
+# print(l)
+# l.remove('hi')
+# print(l)
+# l.remove(l[-1])
+# print(l)
+# l.clear()
+# print(l)
+# t = ('hi', 'santhosh')
+# l1 = list(t)
+# print(l1)
+#
+# python tuples
+# t = ('hi', 'santhosh', 'welcome')
+# print(t[0])
+# l = list(t)
+# l.append('hello')
+# l[1] = 'python'
+# print(l)
+# for c in t:
+#     print(c)
+# if 'hi' in t:
+#     print("yes ")
+# print('length of the tuple is : ', len(t))
+# del t
+# print('the list is deleted',)
+# nt = tuple('hi')
+# print(nt)
+# st = tuple('santhosh')
+# print(st)
+# python sets
+# s = {'hi', 'welcome', 'santhosh'}
+# for a in s:
+#     print(a)
+# if 'hi' in s:
+#     print('hi is in set')
+# s.add('python')
+# print(s)
+# s.update('abc', 'def', 'fgh')a
+# print(s)
+# print(len(s))
+# s.remove('santhosh')
+# print(s)
+# s.discard('def')
+# p = s.pop()
+# print(p)
+# s.clear()
+# print(s)
+# s1 = set('hi')
+# print(s1)
+# d = {1: "hi", 2: "santhosh", 3: "welcome"}
+# print(d)
+# print(d[1])
+# d[10] = "python"
+# print(d)
+# print(d.keys())
+# print(d.values())
+# print(d.items())
+# if 'hi' in d:
+#     print("hi in dictionary")
+# print(len(d))
+# print(d.pop(1))
+# e = d.clear()
+# print(e)
+# c = dict(hi="hi")
+# print(c)
+# multiple dictionaries
+# d = {
+#     's1': {
+#     'name': "san", "rel ": "me"
+#     },
+#     's2 ': {
+#     'name': "santhosh", "rel ": "mine"
+#
+#     }
+# }
+# print(d)
+# for loop
+# i = 1
+# for i in range(10):
+#     print(i)
+# stri = 'santhosh'
+# for x in stri:
+#     print(x)
+#  while loop
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i = i +1
+#
+# print("ho")
+# python functions
+# def fu(name = 'chiluru'):
+#     print('hi', name)
+#
+# fu("santhosh")
+# fu("kumar")
+# fu("raju")
+# fu()
+# def ca(x):
+#     print(7 + x)
+# ca(2)
+# ca(6)
+# python lamda
+
+# x = lambda x:x+10
+# print(x(3))
+# y= lambda y:y*10
+# print(y(3))
+# z = lambda a,b,c:a+b+c
+# print(z(2,4,8))
+# python arrayys
+# list is considered as arrays
+# class pra:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+# v = pra('santhosh',23)
+# print(v.name, v.age)
+# v.name = 'cskraju'
+# print(v.name)
+# del v
+# print("no values")
+# python dates
+# import datetime
+# ct = datetime.datetime.now()
+# print(ct)
+# ctu = datetime.datetime(2023, 1, 20)
+# print(ctu)
+# print(ct.day)
+# print(ctu.strftime('%B'))
+# python math
+# import math
+# x = 4
+# y= -3
+# v = (1, 2, 3, 4)
+# z = 3.6
+# print(min(v))
+# print(max(v))
+# print(pow(2, 3))
+# print(z.__ceil__())
+# print(z.__floor__())
+# print('pi is', math.pi)
+# print(math.sqrt(x))
+# python try except
+# try:
+#     print(x)
+# except NameError:
+#     print('variable x is not defined')
+# except:
+#     print("an exception occuerd")
+# try:
+#     print("santhosh")
+# except NameError:
+#     print('variable x is not defined')
+# else:
+#     print("program executed successfully")
+# try:
+#     print(c+10)
+# except NameError:
+#     print("enter a value")
+# # # print('hello world')
+# # # print('santhosh')
+# # # x = 10
+# # # y = "santhosh"
+# # # z = 'raju'
+# # # # python is not a case sensitive
+# # # d = 2
+# # # D = 3
+# # # print(d,D)
+# # # print(type(x))
+# # # print(type(y))
+# # # print(x)
+# # # print(y)
+# # # print(z)
+# # # a = str(10)  # x will be '3'
+# # # b = int(30)  # y will be 3
+# # # c = float(78)
+# # # print(a, b, c)
+# # # # sq = 'cvb'nvs'  -- to print quote words we use double quotes
+# # # sq = '  python'
+# # # dq = "Santhosh's"
+# # # print(dq + sq)
+# # # # print('apple's macbook) --error with single quotes
+# # # print("apple's macbook")
+# # myvari = "Santhosh"
+# # # my_vari = "Santhosh"
+# # # _my_vari = "Santhosh"
+# # # myVari = "Santhosh"
+# # # MYVARi = "Santhosh"
+# # # myvari2 = "Santhosh"
+# # # print(myvari,my_vari,_my_vari,myVari,MYVARi,myvari2)
+# # # m,n,o = 'abc','bhn','tr'
+# # # print(m,'\n',n,'\t',o)
+# # # python mini calculator
+# # num1 = int(input('enter your first number:--'))
+# # num2 = int(input('enter your second number:--'))
+# # print('your first number is :- ',num1)
+# # print('your first number is :- ',num2)
+# # addition = num1 + num2
+# # subtraction = num1 - num2
+# # multiplication = num1 * num2
+# # division = num1 / num2
+# # power = num1 ** num2
+# # remainder = num1 % num2
+# # op=input('choose/type your operation here from addition or subtraction multiplication or division or power or remainder-')
+# # if op == 'addition':
+# #     print(num1, '+', num2, '=', addition)
+# # elif op == 'subtraction':
+# #     print(num1, '-', num2, '=', subtraction)
+# # elif op == 'multiplication':
+# #     print(num1, '*', num2, '=', multiplication)
+# # elif op == 'division':
+# #     if num2 == 0:
+# #         print("can't divide by zero")
+# #     else:
+# #         print(num1, '/', num2, '=', division)
+# # elif op == 'power':
+# #     print(num1, '**', num2, '=', power)
+# # elif op == 'remainder':
+# #     print(num1, '%', num2, '=', remainder)
+# # else:
+# #     print('wrong operation')
+#
+# # ************* playing cards game **********************************
+# import random
+#
+# values = {'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6, 'Seven': 7, 'Eight': 8, 'Nine': 9, 'Ten': 10,
+#           'jack': 11, 'Queen': 12, 'King': 13, 'Ace': 14}
+# suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
+# ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'jack', 'Queen', 'King', 'Ace')
+#
+#
+# # print(suits,'\n',ranks)
+# class Card:
+#     def __init__(self, suit, rank):
+#         self.suit = suit
+#         self.rank = rank
+#
+#     def __str__(self):
+#         return self.rank + " of " + self.suit
+#
+#
+# # values = {'Two':2,'Three':3,'Four':4,'Five':5,'Six':6,'Seven':7,'Eight':8,'Nine':9,'Ten':10,'jack':11,'Queen':12,'King':13,'Ace':14}
+# two_hearts = Card("hearts", "Two")
+# print(values[two_hearts.rank])
+# three_clubs = Card("clubs", "Three")
+# print(three_clubs)
+# print(values[two_hearts.rank] < values[three_clubs.rank])
+#
+#
+# class Deck:
+#     def __init__(self):
+#         self.all_cards = []
+#         for suit in suits:
+#             for rank in ranks:
+#                 created_card=Card(suit,rank)
+#                 self.all_cards.append(created_card)
+#     def shuffle(self):
+#         random.shuffle(self.all_cards)
+#     def deal_one(self):
+#         return self.all_cards.pop()
+# new_deck = Deck()
+# bottom_card = new_deck.all_cards[1]
+# print(bottom_card)
+# new_deck.shuffle()
+# print(new_deck.all_cards[-1])
+# mycard =new_deck.deal_one()
+# print(mycard)
+# # for card_object in new_deck.all_cards:
+# #     print(card_object)
+#
+# class Player:
+#     def __init__(self,name):
+#         self.name = name
+#         self.all_cards = []
+#     def remove_one(self):
+#         return self.all_cards.pop(0)
+#     def add_cards(self,new_cards):
+#         if type(new_cards) == type([]):
+#             self.all_cards.extend(new_cards)
+#         else:
+#             self.all_cards.extend(new_cards)
+#         return self.all_cards.extend(new_cards)
+#     def __str__(self):
+#         return f'Player {self.name} has {len(self.all_cards)} cards'
+# new_player= Player('Jose')
+# new_player.add_cards([mycard])
+# print(new_player)
+# print(new_player)
+#
+# # game setup
+# player_one = Player("One")
+# player_two = Player("Two")
+# new_deck = Deck()
+# new_deck.shuffle()
+# for x in range(26):
+#     player_one.add_cards(new_deck.deal_one())
+#     player_two.add_cards(new_deck.deal_one())
+# print(len(player_one.all_cards))
+# # while game on
+#
+#     #while at war
+import requests
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# class in python
+class my_class():
+    print("hi santhosh welcome back to pycharm on macbook air")
+
+
+my_class()
+
+
+class person:
+    def __init__(self, name, dob, rel):
+        self.name = name
+        self.dob = dob
+        self.rel = rel
+
+
+p1 = person("santhosh", "2000", "son")
+p2 = person("venkat", "1968", "fat")
+p3 = person("re", "1978", "mot")
+print(p1.name)
+print(p2.rel)
+
+
+def per(nam, age):
+    print(nam, age)
+
+
+per("santhosh kumar", 23)
+
+
+class emp:
+    def __init__(self, name, age, doj):
+        self.name = name
+        self.age = age
+        self.doj = doj
+
+
+e1 = emp("rev", 23, 21)
+e2 = emp("rao", 22, 21)
+e3 = emp("abhi", 21, 21)
+print(e1.name)
+print(e2.age)
+
+
+class de:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+        def fu(exe):
+            print("hi")
+
+        fu("exe")
+
+
+l1 = de("ban", "hyd")
+print(l1.a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
